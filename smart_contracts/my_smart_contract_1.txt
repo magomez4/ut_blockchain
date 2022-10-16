@@ -1,0 +1,12 @@
+https://ide.scriptwiz.app/
+
+//SRIPT 1
+//script for "is my math correct"?
+//arguments
+<4>
+<2>
+<2>
+
+//witness script
+OP_ADD
+OP_EQUAL
