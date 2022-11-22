@@ -21,12 +21,13 @@ I've made two scripts that evaluate to 1 because I wanted to try different op co
 OP_ADD
 OP_EQUAL
 
+## Script 2
+
 ### Program Inputs
 //Only 2 longhorns may enter
 <"miguel">
 <"bevo">
 
-## Script 2
 ### Program Script
 <"bevo">
 OP_EQUAL
