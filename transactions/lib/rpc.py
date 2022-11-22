@@ -5,9 +5,11 @@ from .helper import decode_address
 class RpcSocket:
     ''' Basic implementation of a JSON-RPC interface. '''
     def __init__(self, opt):
-        url  = opt.get('url', '127.0.0.1')
-        port = opt.get('port', 18443)
-
+        # url  = opt.get('url', '127.0.0.1')
+        # port = opt.get('port', 18443)
+        url  = opt.get('url', '172.21.128.1')
+        port = opt.get('port', 18332)
+        
         self.fullUrl  = f'http://{url}:{port}/'
         # self.username = opt.get('username', 'bitcoin')
         # self.password = opt.get('password', 'password')
