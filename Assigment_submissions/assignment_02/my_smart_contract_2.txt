@@ -1,0 +1,16 @@
+https://ide.scriptwiz.app/
+
+//SCRIPT 2
+//Only 2 longhorns may enter
+<"miguel">
+<"bevo">
+
+
+//witness script
+<"bevo">
+OP_EQUAL
+OP_IF
+    <"miguel">
+    OP_EQUAL
+OP_ELSE
+    OP_RETURN //if bevo is not the second imput, we just return here and it will fail
